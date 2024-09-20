@@ -41,7 +41,7 @@ public class ListaEncadeada <Tipo> {
     }
     
     public void adiciona(Tipo elemento){
-        No<Tipo> celula = new no <Tipo> (elemento);
+        No<Tipo> celula = new No <Tipo> (elemento);
         if(this.inicio == null && this.fim == null){
             this.inicio = celula;
             this.fim = celula;
