@@ -6,8 +6,19 @@ public class Lista {
         
         System.out.println("Tamanho da Lista = " + lista.getTamanho());
 
-        lista.adiciona("Cladio");
+        lista.adiciona("Claudio");
 
-        
+        System.out.println(lista);
+        System.out.println("Tamanho da Lista =" + lista.getTamanho());
+        System.out.println("Inicio da Lista =" + lista.getInicio());
+        System.out.println("Fim da Lista =" + lista.getFim());
+
+        lista.adiciona("Camila");
+
+        System.out.println(lista);
+        System.out.println("Tamanho da Lista =" + lista.getTamanho());
+        System.out.println("Inicio da Lista =" + lista.getInicio());
+        System.out.println("Fim da Lista =" + lista.getFim());
+
     }
 }
